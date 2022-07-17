@@ -1,3 +1,141 @@
 body {
   background: peachpuff;
 }
+
+.container {
+  margin:20px;
+}
+
+.a {
+  border: 2px solid black;
+  height: 200px;
+  background-color: lightpink;
+}
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+  margin: 10px 0 0 0;
+}
+.b {
+  border: 2px solid black;
+  width:300px;
+  height:300px;
+  background-color: lightpink;
+
+}
+.c {
+  border: 2px solid black;
+  width:300px;
+  height:300px;
+  background-color: lightpink;
+}
+
+.d {
+  border: 2px solid black;
+  width:300px;
+  height: 300px;
+  background-color: lightpink;
+}
+.e {
+  border: 2px solid black;
+  width:300px;
+  height:300px;
+  margin-top: 10px;
+  background-color: lightpink;
+}
+
+.f {
+  border: 2px solid black;
+  width:300px;
+  height:300px;
+  margin-top: 10px;
+  background-color: lightpink;
+}
+.g {
+  border: 2px solid black;
+  width:300px;
+  height:300px;
+  margin-top: 10px;
+  background-color: lightpink;
+}
+.h {
+  border: 2px solid black;
+  height: 620px;
+  width: 500px;
+  background-color: lightpink;
+  float: right;
+  margin-top: -610px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .a {
+    border: 2px solid black;
+    height: 100px;
+    background-color: lightpink;
+  }
+
+  .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0;
+    width:100%;
+  }
+  .b {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+  
+  }
+  .c {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+  }
+
+  .d {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+  }
+  .e {
+    border: 2px solid black;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+  }
+
+  .f {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: lightpink;
+  }
+  .g {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: lightpink;
+  }
+  .h {
+    border: 2px solid black;
+    height: 400px;
+    width: 100%;
+    background-color: lightpink;
+    margin-top: 0;
+  }
+
+}

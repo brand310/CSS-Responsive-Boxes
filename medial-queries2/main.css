@@ -1,3 +1,132 @@
 body {
   background: papayawhip;
 }
+
+.container {
+  margin: 10px;
+}
+
+.a {
+  border: 2px solid black;
+  background-color: cadetblue;
+  min-height: 200px;
+}
+
+.b {
+  border: 2px solid black;
+  background-color: cadetblue;
+
+  height: 200px;
+  width:80%;
+  margin-top: 20px;
+
+}
+
+.cards{
+  margin-top: 20px;
+  display: flex;
+  column-gap: 100px;
+}
+
+.c{
+  border: 2px solid black;
+  display: inline-block;
+  min-width: 350px;
+  min-height: 250px;
+  background-color: cadetblue; 
+}
+
+.d{
+  border: 2px solid black;
+  display: inline-block;
+  min-width: 350px;
+  min-height: 250px;
+  background-color: cadetblue;
+  display: block;
+  
+}
+
+.e{
+  border: 2px solid black;
+  display: inline-block;
+  min-width: 350px;
+  min-height: 250px;
+  background-color: cadetblue;
+}
+
+.f{
+  float: right;
+  border: 2px solid black;
+  background-color: cadetblue;
+  min-width: 35vh;
+  min-height: 50vh;
+  margin-top: -478px;
+  display: block;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  
+  .a { 
+    border: 2px solid black;
+    margin-bottom: 10px;
+    background-color: cadetblue;
+    min-height: 100px;
+  
+  }
+  
+  .b{
+    min-height: 400px;
+    background-color: cadetblue;
+    border: transparent;
+    min-width: 100%;
+    
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    margin:20px;
+    column-gap: 20px;
+  
+
+  }
+  .c{
+    border: 2px solid black;
+    display: inline-block;
+    min-width: 100px;
+    background-color: cadetblue;
+  }
+  
+  .d{
+    border: 2px solid black;
+    display: inline-block;
+    min-width: 100px;
+    background-color: cadetblue;
+    
+  }
+  
+  .e{
+    border: 2px solid black;
+    display: inline-block;
+    min-width: 100px;
+    background-color: cadetblue;
+  }
+  
+  .f{
+    border: 2px solid black;
+    background-color: cadetblue;
+    min-height: 200px;
+    margin-top: 0;
+  }
+  
+}

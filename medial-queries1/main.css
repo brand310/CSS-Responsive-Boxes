@@ -1,3 +1,71 @@
+
 body {
-  background: blanchedalmond;
+  background-color: cornflowerblue;
+}
+            
+.container {
+  min-height: 100vh;
+  margin: 10px;
+}
+
+.a {
+  border: 5px;
+  border-style: solid;
+  min-height: 5vh;
+  text-align: center;
+}
+
+.b {
+  border: 5px;
+  border-style: solid;
+  float: left;
+  width: 80%;
+  min-width: 30vh;
+  min-height:70vh;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.c {
+  border: 5px;
+  border-style: solid;
+  float: right;
+  min-width: 30vh;
+  min-height:70vh;
+  margin-top: 50px;
+  text-align: center;
+}
+     
+
+
+@media only screen and (max-width: 600px) {
+
+    body {
+      background-color: blueviolet;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+    }      
+
+    .a {
+      border: 5px;
+      border-style: solid;
+      width: 100%;
+    }
+    
+    .b {
+      border: 5px;
+      border-style: solid;
+      width: 100%;
+      height: 50%
+    }
+    
+    .c {
+      border: 5px;
+      border-style: solid;
+      width:100%;
+    
+  }
 }
